@@ -7,7 +7,7 @@
     Type /newbot to create a new bot. After completing the setup you'll get the Telegram bot’s token.
 
 3. In Telegram bot chat send a random message to your bot. 
-    Run get_chat_id.py script.
+    Put Telegram bot's token in get_chat_id.py and run the script.
     In the result look for 'chat': {'id': 
     The number behind it is the Chat Id.
 
