@@ -1,13 +1,16 @@
 # python4twitch
 
-1. Get Twitch chat token here: https://twitchapps.com/tmi/
+Prerequisites: Python installed, knowledge to edit and run Python scripts.
+
+1. Get Twitch chat token here: https://twitchapps.com/tmi/ 
+    In T2Tbot.py edit self.nickname and self.TwitchToken.
 
 2. Create A Telegram Bot Using Telegram’s BotFather
-    Open your telegram app and search for BotFather.
-    Type /newbot to create a new bot. After completing the setup you'll get the Telegram bot’s token.
+    Open Telegram app and search for BotFather.
+    Type /newbot to create a new bot. After completing the bot setup you'll get the Telegram bot’s token.
 
-3. In Telegram bot chat send a random message to your bot. 
-    Put Telegram bot's token in get_chat_id.py and run the script.
+3. In Telegram bot chat send a random message (e.g. test) to your bot. 
+    Edit Telegram bot's token in get_chat_id.py and run the script.
     In the result look for 'chat': {'id': 
     The number behind it is the Chat Id.
 
