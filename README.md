@@ -2,7 +2,7 @@
 
 Prerequisites: Python installed, knowledge to edit and run Python scripts.
 
-1. Get Twitch chat token here: https://twitchapps.com/tmi/ 
+1. Get Twitch chat token here: https://twitchapps.com/tmi/ .
     In T2Tbot.py edit self.nickname and self.TwitchToken.
 
 2. Create A Telegram Bot Using Telegram’s BotFather
