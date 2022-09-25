@@ -16,4 +16,4 @@ Prerequisites: Python installed, knowledge to edit and run Python scripts.
 
 4. Create telegram_id.txt in Notepad. Type 0 in it and save in the same folder as the script.
 
-5. Put channels and keywords in self.channels and self.keywords respectively.
+5. In T2Tbot.py add channels and keywords in self.channels and self.keywords. Save and run.
